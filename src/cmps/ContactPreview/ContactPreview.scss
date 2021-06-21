@@ -1,0 +1,51 @@
+.contact-preview {
+      border-radius: 5px;
+      background-color: white;
+      width: 500px;
+      margin: 10px;
+      margin-block-end: 20px;
+      .card-typography {
+            margin-block-end: 6px;
+      }
+      .card-typography-title {
+            margin-block-end: 12px;
+      }
+}
+
+.card-image {
+      display: flex;
+      flex-direction: column;
+}
+
+.main-card {
+      display: flex;
+}
+
+.img-contact {
+      border-radius: 50%;
+      margin-block-end: 5px;
+}
+
+.card-action {
+      display: flex;
+      align-self: flex-end;
+}
+
+.img-edit {
+      width: 25px;
+}
+
+.img-bin {
+      width: 25px;
+}
+
+@media only screen and (max-width: 380px) {
+      .contact-preview {
+            width: 350px;
+      }
+      .card-action {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+      }
+}

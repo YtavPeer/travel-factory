@@ -1,0 +1,18 @@
+.contact-form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: 0 auto;
+      input {
+        padding: 6px 12px;
+        margin-bottom: 16px;
+      }
+      label {
+        margin-bottom: 8px;
+      }
+    }
+    
+
+    .save-contact{
+          cursor: pointer;
+    }
